@@ -21,5 +21,9 @@ A browser page will open and guide the execution.
 
 ##  Example Results
 
+The shown results reflect following settings: 
+- `fastcdc` min_size = 16KiB, avg_size = 32KiB, max_size = 64 KiB
+- `buzhash` mask 15 selected to match probabilistically the `fastcdc` settings above
+
 ![](./img/chunking-speed.png)
 
